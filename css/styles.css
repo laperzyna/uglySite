@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora&family=Michroma&family=Playfair+Display&display=swap');
+
+* {
+    background-color:rgb(49, 31, 6);
+}
+
+h1 {
+    color: rgb(123, 73, 4);
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+}
+
+#bounceText {
+    font-family: fantasy;
+    color: blue;
+    position: absolute;
+    font-size: 60px;
+}
+
+#bounceText:hover {
+    text-decoration: line-through;
+}
