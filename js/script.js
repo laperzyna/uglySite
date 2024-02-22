@@ -52,5 +52,13 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         cancelAnimationFrame(updatedID);
         console.log("done");
-      }, 25000); 
+        bounceText.textContent = "I hope you're left Disatisfied...";
+        bounceText.style.fontFamily = "Franklin Gothic Medium";
+        bounceText.style.position = "absolute";
+        bounceText.style.left = "50%";
+        bounceText.style.top = "50%";
+        bounceText.style.transform = "translate(-50%, -50%)";
+        bounceText.style.fontSize = "30px";
+        bounceText.style.color = 'red';
+    }, 25000);
 });

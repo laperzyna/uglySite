@@ -11,8 +11,18 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    color: rgb(142, 98, 37);
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: right;
+}
+
 #bounceText {
-    font-family: fantasy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
     position: absolute;
     font-size: 60px;
